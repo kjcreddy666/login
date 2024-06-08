@@ -1,0 +1,24 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Login and Registration demo using ExpressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjcreddy666/login.git"
+  },
+  "keywords": [
+    "login",
+    "register"
+  ],
+  "author": "Kappeta Jaya Chandra Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjcreddy666/login/issues"
+  },
+  "homepage": "https://kjcreddy666.github.io/kjcreddy666"
+}
