@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Login
+        style 
+            include styles.css
+    body 
+        div(class="container")
+            include navbar.pug
+            form(class="login", action="login" method="post")
+                input(type="text", name="username", value="", placeholder="Username", required)
+                input(type="password", name="password", value="", placeholder="Password", required)
+                button Login
