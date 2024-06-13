@@ -9,7 +9,7 @@ html(lang="en")
     body 
         div(class="container")
             include navbar.pug
-            form(class="login", action="login" method="post")
+            form(class="/login", action="login", method="post")
                 input(type="text", name="username", value="", placeholder="Username", required)
                 input(type="password", name="password", value="", placeholder="Password", required)
                 button Login
